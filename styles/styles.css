@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Navigation styles */
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -19,12 +19,12 @@ nav a {
     
 }
 
-/* Main heading styles */
+
 h1 {
     color: steelblue;
 }
 
-/* Profile image styles */
+
 main img {
     width: 150px;
     height: auto;
@@ -35,17 +35,17 @@ main img {
     
 }
 
-/* Paragraph styles */
+
 p {
     padding: 0;
 }
 
-/* Main content styles */
+
 main {
     max-width: 840px;
 }
 
-/* Aside styles */
+
 aside {
     width: 20rem; 
     text-align: center;
@@ -59,12 +59,12 @@ aside img {
 }
 aside h2{
     position:absolute;
-    top: 47px;
-    left: 150px;
-    /* margin-left: 50px; */
+    top: 10px;
+    left: 68px;
+    margin-right: 50px;
 }
 
-/* Footer styles */
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
