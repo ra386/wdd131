@@ -1,22 +1,31 @@
-*{
+/* Universal selector */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Navigation styles */
 nav {
     background-color: steelblue;
     padding: 10px;
+    
 }
+
 nav a {
-    color: rgb(255, 255, 255);
+    color: white;
     display: block;
     padding: 20px;
+    
 }
+
+/* Main heading styles */
 h1 {
     color: steelblue;
 }
- main img {
+
+/* Profile image styles */
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -25,33 +34,49 @@ h1 {
     float: right;
     
 }
+
+/* Paragraph styles */
 p {
     padding: 0;
 }
+
+/* Main content styles */
 main {
     max-width: 840px;
 }
-aside{
+
+/* Aside styles */
+aside {
     width: 20rem; 
     text-align: center;
-    
+    position: relative;
 }
+
 aside img {
     width: 200px;
     height: auto;
     
 }
-footer{
+aside h2{
+    position:absolute;
+    top: 47px;
+    left: 150px;
+    /* margin-left: 50px; */
+}
+
+/* Footer styles */
+footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
-    
 }
-/* class selectors */
+
+/* Class selectors */
 .box {
-    margin:1rem ;
-    border:1px solid rgb(0, 0, 0, .1) ;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+    margin-top: 50px;
 }
