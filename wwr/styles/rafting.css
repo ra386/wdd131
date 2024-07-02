@@ -1,0 +1,122 @@
+*{
+    margin:5;
+    padding:0 ;
+    
+    
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Young+Serif&display=swap');
+:root{
+    --primary-color:#2D4A73 ;
+    --secondary-color: #6AC6E2;
+    --accent1-color:#8CCB84 ;
+    --accent2-color:#DBCCA5 ;
+    --heading-font: 'Young Serif', 'Arial';
+    --paragraph-font:'Roboto' 'sans serif' ;
+    --navigation-background-color:#2D4A73 ;
+    --navigation-link-color:#000000 ;
+    --navigation-hover-link-color:white ;
+    --navigation-hover-background-color:#2D4A73 ;
+}
+h1, h2 {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+h1{
+    font-weight: bolder;
+}
+nav a{
+    text-decoration: none;
+    
+}
+.hero img{
+    display: inline;
+    width: 100%;
+    height: auto;
+}
+.hero {
+    position: relative;
+    background-image: url('your-hero-image.jpg'); /* Set your hero image here */
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    background-size: cover; /* Cover the entire div with the image */
+    background-position: center; /* Center the background image */
+}
+
+.hero h1 {
+    position: absolute;
+    top: 1px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    color: white; /* Change text color for better visibility */
+    font-size: 2.5em; /* Adjust as needed */
+    margin-left: 400px;
+}
+
+.hero article {
+    position: absolute;
+    top: 65px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    color: white; /* Change text color for better visibility */
+    max-width: 400px; /* Adjust as needed */
+    margin-left:300px ;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px; /* Add padding for better readability */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+.hero article img {
+    float: left; /* Float image to the right of the paragraph */
+    margin: 60px; /* Add space between image and paragraph */
+    max-width: 20%; /* Ensure the image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
