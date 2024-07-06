@@ -67,7 +67,7 @@ main {
     /* max-width: 840px; */
     grid-column: 2;
     margin: 1rem;
-    padding-top: 45px;
+    margin-top: 35px;
     
 }
 
@@ -108,6 +108,6 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
-    margin-top: 50px;
+    margin-top: 15px;
     
 }
