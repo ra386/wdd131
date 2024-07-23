@@ -180,6 +180,11 @@ button:hover{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
 }
+.frame{
+    
+    text-decoration: none;
+    top: 30px;
+}
 footer{
     display: grid;
     grid-template-columns: 1fr 2fr;

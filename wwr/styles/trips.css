@@ -98,7 +98,11 @@ button{
 button:hover{
     background-color:rgba(172, 224, 224, 0.352);
 }
-
+.frame{
+    
+    text-decoration: none;
+    top: 30px;
+}
 
 footer{
     display: grid;
