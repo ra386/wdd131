@@ -102,6 +102,7 @@ button{
     background-color:#6AC6E2 ;
     border-radius: 10px;
     margin-left: 600px; 
+    margin-top: 20px;
 }
 button:hover{
     color: #0b4d61d0;
