@@ -18,3 +18,51 @@
     header h1{
         text-transform: capitalize;
     }
+    main picture {
+        height: auto; /* Corrected from 100% auto */
+        width: 100%;
+        border-bottom: 2px solid var(--primary-color);
+    }
+    
+
+   main section{
+    text-align: center;
+   }
+   section span{
+    text-decoration: solid;
+    font-weight: bold;
+   }
+   section h2{
+    font-weight: bolder;
+    font-size:40px ;
+   }
+   .info{
+    padding: 5px;
+   }
+   .temp img{
+    height:  150px ;
+    width: 200px;
+    object-fit: cover;
+   }
+   footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+ @media only screen  and (min-width: 1000px) {
+    main{
+        display: grid;
+    }
+    picture {
+        grid-column: 1/3;
+    }
+    h2 {
+        color : white;
+        background-color : rgb(182, 0, 0, 0.774);
+        text-align : left;
+        padding : 3% 5%;
+        position : relative;
+        right : 3%;
+        }
+
+ }

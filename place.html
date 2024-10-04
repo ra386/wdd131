@@ -2,18 +2,23 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles/place.css">
-    <script defer src="scripts/place.js"></script>
+    <script src="scripts/place.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
     <main>
-        <header>
-            <h1>Nigeria</h1>
-        </header>
-        <picture></picture>
-        <section>
+        <picture>
+            <source srcset="images/san-diego-temple.jpg" media="(min-width: 1001px)">
+            <img src="images/small.webp" alt="Duart Castle in Scotland" width="335" height="425">
+        </picture>
+        
+
+        <section class="info">
             <h2>Data</h2>
             <p><span>Area:</span> 923,769 km<sup>2</sup></p>
             <p><span>Population:</span> 230 million</p>
@@ -22,7 +27,7 @@
             <p><span>Currency:</span>Naira</p>
             <p><span>Time Zone:</span>UTC+1</p>
         </section>
-        <section>
+        <section class="temp">
             <h2>Weather</h2>
             <img src="images/weather-icon.svg" alt="weather icon">
             <p><span>Temperature:</span>28<sup>ο</sup>C</p>
