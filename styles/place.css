@@ -45,14 +45,17 @@
     object-fit: cover;
    }
    footer {
-    background-color: #f0f0f0;
+    background-color:var(--primary-color);
     padding: 20px;
     text-align: center;
+    font-size: larger;
 }
 
 
 /* Styles for larger screens */
 @media only screen and (min-width: 1001px) {
+   
+    
     .container{
         display: grid;
 
@@ -61,16 +64,17 @@
         width: 100%; /* Ensure the source image takes full width */
         height: 700px; /* Maintain aspect ratio */
     }
+    
     h2 {
-        color : white;
-        background-color : orange;
+        color : black;
+        background-color : #938ea5;
         text-align : left;
-        padding : 3% 5%;
+        padding: 5% 9%;
         position : relative;
-        right : 3%;
+        right : 10%;
         }
     .info {
-            background-color : white;
+            background-color :rgba(204, 193, 193, 0.589);
             border : none;
             width : 250px;
             grid-column: 1/2;
@@ -79,7 +83,7 @@
             margin-left: 30px;
             }
      .temp {
-                background-color : white;
+                background-color : rgba(204, 193, 193, 0.589);
                 width : 200px;
                 justify-self : end;
                 grid-column: 1/2;
@@ -90,7 +94,9 @@
                 }
         .temp h2::after {
                     content : "⛅";
-                   
+                    position: absolute;
+                    /* Adjust this value to fine-tune positioning */
+                    left:90%;
                     }
                     
         .temp img {
