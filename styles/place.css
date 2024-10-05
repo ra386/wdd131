@@ -49,20 +49,68 @@
     padding: 20px;
     text-align: center;
 }
- @media only screen  and (min-width: 1000px) {
-    main{
+
+
+/* Styles for larger screens */
+@media only screen and (min-width: 1001px) {
+    .container{
         display: grid;
+
     }
-    picture {
-        grid-column: 1/3;
+    picture img {
+        width: 100%; /* Ensure the source image takes full width */
+        height: 700px; /* Maintain aspect ratio */
     }
     h2 {
         color : white;
-        background-color : rgb(182, 0, 0, 0.774);
+        background-color : orange;
         text-align : left;
         padding : 3% 5%;
         position : relative;
         right : 3%;
         }
+    .info {
+            background-color : white;
+            border : none;
+            width : 250px;
+            grid-column: 1/2;
+            position : absolute;
+            opacity : 0.7;
+            margin-left: 30px;
+            }
+     .temp {
+                background-color : white;
+                width : 200px;
+                justify-self : end;
+                grid-column: 1/2;
+                opacity : 0.7;
+                position : absolute;
+                margin-top: 25%;
+                margin-right: 30px;
+                }
+        .temp h2::after {
+                    content : "⛅";
+                   
+                    }
+                    
+        .temp img {
+            display: none;
+        }
 
- }
+}
+
+/* Styles for smaller screens */
+@media only screen and (max-width: 700px) {
+    picture img {
+        width: 100%; /* Make the small image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+/* Styles for smaller screens */
+@media only screen and (max-width: 1000px) {
+    picture img {
+        width: 100%; /* Make the small image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
