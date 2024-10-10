@@ -73,66 +73,40 @@ const temples = [
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg", loading: "lazy"
     },
 
-    {
-      templeName: "",
-      location:"",
-      dedicated:"",
-      area:"",
-      imageUrl:
-      "", loading: "lazy"
-    },
+  ]
 
-    {
-      templeName: "",
-      location:"",
-      dedicated:"",
-      area:"",
-      imageUrl:
-      "", loading: "lazy"
-    },
-
-    {
-      templeName: "",
-      location:"",
-      dedicated:"",
-      area:"",
-      imageUrl:
-      "", loading: "lazy"
-    }
-    // Add more temple objects here...
-  ];
-
-  function createTempleCards() {
-    const templeCardsContainer = document.getElementById('temple-cards'); // Assuming you have a container element with the ID 'temple-cards'
+  
+  
+  
+  function templecards() {
+    const container = document.getElementById("temple-cards"); // Replace with your container element ID
   
     temples.forEach(temple => {
-      const card = document.createElement('div');
-      card.classList.add('temple-card'); // Add a class for styling
+      let card = document.createElement("section");
+      let name = document.createElement("h3");
+      let location = document.createElement("p");
+      let dedication = document.createElement("p");
+      let area = document.createElement("p");
+      let img = document.createElement("img");
   
-      const image = document.createElement('img');
-      image.src = temple.imageUrl;
-      image.alt = temple.templeName;
-      image.loading = 'lazy';
-      card.appendChild(image);
-  
-      const name = document.createElement('h3');
+      // Set content
       name.textContent = temple.templeName;
-      card.appendChild(name);
-  
-      const location = document.createElement('p');
       location.textContent = temple.location;
+      dedication.textContent = temple.dedicated;
+      area.textContent = "Area: " + temple.area + " sq ft";
+      img.src = temple.imageUrl;
+      img.alt = temple.templeName + " Temple"; // Add alt text for accessibility
+  
+      // Append elements to card in the desired order
+      card.appendChild(name);
       card.appendChild(location);
-  
-      const dedicated = document.createElement('p');
-      dedicated.textContent = `Dedicated: ${temple.dedicated}`;
-      card.appendChild(dedicated);
-  
-      const area = document.createElement('p');
-      area.textContent = `Area: ${temple.area} square feet`;
+      card.appendChild(dedication);
       card.appendChild(area);
+      card.appendChild(img);
   
-      templeCardsContainer.appendChild(card);
+      // Append card to container
+      container.appendChild(card);
     });
   }
   
-  createTempleCards();
+  templecards();

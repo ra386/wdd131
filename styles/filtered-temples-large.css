@@ -5,9 +5,19 @@
 }
 body {
     font-family: Arial, sans-serif;
+	text-align: center;
     
 }
-/* Mobile View ***************/
+section{
+	background-color: aqua;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+section img{
+	opacity: 1;
+}
+
 #menu {
 	display: block;
 	font-size: 2rem;
@@ -72,8 +82,8 @@ nav {
 main div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 42px;
-    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+    grid-column-gap: 60px;
     margin: 40px;
 }
 main img{
@@ -81,11 +91,6 @@ main img{
     width: 100%;
     object-fit: cover;
 }
-
-
-
-
-
 
 footer {
     background-color: #f0f0f0;
