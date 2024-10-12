@@ -4,18 +4,24 @@
     padding: 0;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; 
+}
+h2{
 	text-align: center;
-    
 }
 section{
-	background-color: aqua;
+	background-color: rgb(181, 233, 233);
 	padding: 20px;
+	margin-top: 20px;
 	border-radius: 20px;
+	text-align: center;
 
 }
+
+
 section img{
-	opacity: 1;
+	border-radius: 10px;
+	
 }
 
 #menu {
