@@ -108,5 +108,3 @@ const temples = [
       container.appendChild(card);
     });
   }
-  
-  templecards();
