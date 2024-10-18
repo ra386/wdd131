@@ -19,7 +19,7 @@ h1{
 form{
    margin-left: 100px;
    border: 5px solid saddlebrown;
-   width: 900px ;
+   width: 500px ;
    height: 900px;
    background-color: beige;
    
@@ -58,8 +58,7 @@ section select{
     font-size: 20px;
 }
 .beta label{
-    margin-top: 25px;
-    display: block;
+    margin-top: 15px;
 	font-weight: 700;
     font-size: 20px;
 }
@@ -69,8 +68,7 @@ section select{
     border-radius: 10px;
 }
 div p{
-    margin-top: 25px;
-    display: block;
+    margin-top: 15px;
 	font-weight: 700;
     font-size: 20px;
 }
@@ -90,26 +88,25 @@ div{
     margin: 25px;
 }
 .din label{
-    margin-top: 25px;
-    display: block;
+    margin-top: 15px;
 	font-weight: 700;
     font-size: 20px;
 }
 .din textarea{
     height: 100px;
-    width: 250px;
+    width: 450px;
 }
 .last label{
-    margin-top: 25px;
-    display: block;
+    margin-top: 15px;
+    
 	font-weight: 700;
     font-size: 20px;
 }
 .last input[type="username"]{
-    margin-top: 5px;
+    
     font-size: 15px;
     margin-bottom: 5px;
-    width: 250px;
+    width: 450px;
     height: 40px;
     border-radius: 10px;
 }
