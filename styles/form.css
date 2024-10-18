@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: roboto, sans-serif;
+    background-color: rgb(243, 243, 233); 
+}
+header{
+    background-color: aquamarine;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+}
+form{
+   margin-left: 100px;
+   border: 5px solid saddlebrown;
+   width: 900px ;
+   height: 900px;
+   background-color: beige;
+   
+  
+   
+}
+.rating {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .rating label {
+    cursor: pointer;
+    font-size: 24px;
+    color: #ccc;
+  }
+  
+section label {
+	display: block;
+	font-weight: 700;
+    font-size: 20px;
+}
+section select{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+.san{
+    display: block;
+	font-weight: 700;
+    font-size: 20px;
+}
+.beta label{
+    margin-top: 25px;
+    display: block;
+	font-weight: 700;
+    font-size: 20px;
+}
+.beta input[type="date"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+div p{
+    margin-top: 25px;
+    display: block;
+	font-weight: 700;
+    font-size: 20px;
+}
+.alpha input[type=checkbox]{
+    height: 20px;
+    width: 50px;
+    margin-top: 20px;
+}
+span{
+    color: blue;
+    font-size: 13px;
+}
+section{
+    margin: 25px;
+}
+div{
+    margin: 25px;
+}
+.din label{
+    margin-top: 25px;
+    display: block;
+	font-weight: 700;
+    font-size: 20px;
+}
+.din textarea{
+    height: 100px;
+    width: 250px;
+}
+.last label{
+    margin-top: 25px;
+    display: block;
+	font-weight: 700;
+    font-size: 20px;
+}
+.last input[type="username"]{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}

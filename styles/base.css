@@ -9,7 +9,7 @@ header {
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
-    padding-left:  50px auto;
+    padding-left:  50px ;
 }
 
 nav {
@@ -30,8 +30,8 @@ nav a:hover {
 
 /* Main styles */
 main {
-    max-width: 800px auto;
-    margin: 0 auto;
+    max-width: 1000rem ;
+    
     padding: 20px;
 }
 main {

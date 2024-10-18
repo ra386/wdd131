@@ -3,49 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Dynamic Web Fundamentals - Your Name</title>
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals by Your Name. A webpage about Dynamic Web Fundamentals">
-    <meta name="author" content="Your Name">
+    <title>WDD 131 - Dynamic Web Fundamentals - Favour Junior Uche Ebere</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals by Favour Junior Uche Ebere. A webpage about Dynamic Web Fundamentals.">
+    <meta name="author" content="Favour Junior Uche Ebere">
     <link rel="stylesheet" href="styles/base.css">
-    <script  defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/getdates.js"></script>
 </head>
 <body>
     <header>
-        <h1>WDD 131 - Dynamic Web Fundamentals Favour Junior Uche Ebere</h1>
+        <h1>WDD 131 - Dynamic Web Fundamentals</h1>
         <nav>
-            <a href="temples.html">Your LinkedIn Profile</a>
-            <a href="https://byui.instructure.com/">I-Learn</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn Profile</a>
+            <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scripture</a>
             <a href="#">Final Project</a>
         </nav>
     </header>
     <main>
         <section class="card">
             <h2>About Me</h2>
-        <p>  <img src="images/me.jpg" alt="" class="me" >My name is Favour Junior Uche Ebere I was bron in Cameroon but both my parents are Nigerians, I come from a family of seven children and i am the midddle kid. I love playing basketball,watch movies and spending time with my family. I am looking forward to a great semester and learn new incredible thing. </p>
-        
-        <h3>Lagos,Nigeria</h3><hr>
-        <p> <figure class="coun"></figure>
-            <img src="images/flag.webp" alt="" class="flag" align="left">
-            <figcaption>official flag of nigeria</figcaption>
-        </figure>Lagos is also among the top ten of the world's fastest-growing cities and urban areas. A megacity, it has the fourth-highest GDP in Africa, and houses one of the largest and busiest seaports on the continent. Due to the large urban population and port traffic volumes, Lagos is classified as a Medium-Port Megacity.</p>
-
+            <p>
+                <img src="images/me.jpg" alt="A picture of me" class="me">My name is Favour Junior Uche Ebere. I was born in Cameroon but both my parents are Nigerians. I come from a family of seven children and I am the middle child. I love playing basketball, watching movies, and spending time with my family. I am looking forward to a great semester and learning new incredible things.
+            </p>
+            
+            <h3>Lagos, Nigeria</h3>
+            <hr>
+            <figure class="coun">
+                <img src="images/flag.webp" alt="Official flag of Nigeria" class="flag">
+                <figcaption>Official flag of Nigeria</figcaption>
+            </figure>
+            <p>
+                Lagos is also among the top ten of the world's fastest-growing cities and urban areas. A megacity, it has the fourth-highest GDP in Africa and houses one of the largest and busiest seaports on the continent. Due to the large urban population and port traffic volumes, Lagos is classified as a Medium-Port Megacity.
+            </p>
         </section>
+        
         <section class="card">
             <h2>Web Dev Resources</h2>
             <ul class="box">
                 <li><a href="https://www.geeksforgeeks.org/" target="_blank">Geeks-For-Geeks</a></li>
-                <li><a href="https://www.w3schools.com/" target="_blank">W3School</a></li>
-                <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN-Docs</a></li>
-                <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwicoKjb3sSIAxV0QkgAHXw6Oh4YABAAGgJjZQ&co=1&ase=2&gclid=Cj0KCQjwi5q3BhCiARIsAJCfuZnw99sRTofWBw8x3udolCCLEYD88jDrIWrLief-xmm-74tz7j9hfj4aAi39EALw_wcB&ohost=www.google.com&cid=CAESVuD2RH5VS83vaIhC1KdiM08gMbyI9lfB0HN_qcCOpjhom7GIiE6hoFpTFmHDj4BpVtkpxLZPOY2jgNqXeVz47W1-lQBSGqn5bx5HHKMGjoZs8gSnU0UE&sig=AOD64_3zRbT8CL6kAfff-oqIs_NS-8szaw&q&nis=4&adurl&ved=2ahUKEwjV9KPb3sSIAxWcG7kGHc_xKTQQ0Qx6BAgVEAE" target="_blank">Udemy</a></li>
-                <li><a href="https://stackoverflow.com/" target="_blank">stackoverflow</a></li>
-                <li><a href="https://netninja.dev/" target="_blank">Net-Ninja</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Docs</a></li>
+                <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                <li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
+                <li><a href="https://netninja.dev/" target="_blank">Net Ninja</a></li>
             </ul>
         </section>
     </main>
     <footer>
         <p>&copy;<span id="currentyear"></span> Favour Junior Uche Ebere, Douala/Cameroon</p>
-        <p id="lastModified">Last Modification: </p>
+        <p id="lastModified">Last Modification: <span id="lastModifiedDate"></span></p>
     </footer>
+    <script>
+        // Get the current year for the footer
+        document.getElementById('currentyear').textContent = new Date().getFullYear();
+
+        // Get the last modified date
+        document.getElementById('lastModifiedDate').textContent = document.lastModified;
+    </script>
 </body>
 </html>

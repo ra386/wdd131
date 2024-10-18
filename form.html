@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Favour Junior Uche Ebere- Forms</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Product Review">
+    <meta name="author" content="Favour Junior Uche Ebere">
+    <link rel="stylesheet" href="styles/form.css">
+    <script defer src="scripts/form.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+        
+    </header>
+
+    <main>
+        <form method="post" action="review.html">
+            <section id="choix">
+                <label for="uno" >Product Name</label>
+                <select id="un">
+                    <option value=""disabled>Choose One </option>
+                </select>
+            </section>
+
+            <div class="band">
+                <label class="san">Overall Rating</label>
+                <div class="rating">
+                    <label for="star1">★ <input type="radio" name="rating" id="star1" value="1" />
+                    </label>
+                    
+
+                    <label for="star2">★★ <input type="radio" name="rating" id="star2" value="2" />
+                    </label>
+                    
+
+                    <label for="star3">★★★ <input type="radio" name="rating" id="star3" value="3" />
+                    </label>
+                    
+
+                    <label for="star4">★★★★ <input type="radio" name="rating" id="star4" value="4" />
+                    </label>
+                    
+                    <label for="star5">★★★★★ <input type="radio" name="rating" id="star5" value="5" /></label>
+                    
+                    
+                                    
+                </div>
+            </div>
+
+            <div class="beta">
+                <label for="dat">Date of Installation</label> <br>
+                <input type="date" id="dat" name="Installation" required >
+            </div>
+
+            <div class="alpha">
+                <p>What are the most useful features to you? <br> <span>(Check all that apply)</span></p>
+                <input type="checkbox" id="chox1" name="choix1" value="Design">
+                <label for="chox1"> Design</label><br>
+                <input type="checkbox" id="chox2" name="choix2" value="Car">
+                <label for="chox2"> Durability</label><br>
+                <input type="checkbox" id="chox3" name="choix3" value="Boat">
+                <label for="chox3"> Performance</label><br>
+                <input type="checkbox" id="chox4" name="choix4" value="Ease of Use">
+                <label for="chox4">Ease of Use</label>
+            </div>
+
+            <div class="din">
+                <label for="review">Written Review <span>(optional)</span></label><br>
+                <textarea id="review" name="review"></textarea>
+            </div>
+
+            <div class="last">
+                <label for="username">Your Username <span>(Optional)</span></label><br>
+                <input type="username" id="username" name="username" placeholder="Type your username">
+            </div>
+
+            <input type="submit" value="Post Review" id="submit">
+        </form>
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
