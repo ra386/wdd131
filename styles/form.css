@@ -1,126 +1,153 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: roboto, sans-serif;
-    background-color: rgb(243, 243, 233); 
+    background-color: #e6e6e6;
 }
-header{
+
+header {
     display: flexbox;
-    background-color:aquamarine;
+    background-color: #4682B4;
     padding: 20px;
     text-align: center;
     font-size: larger;
     margin-bottom: 15px;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 1.5rem;
 }
-form{
-   
-   margin-left: 100px;
-   border: 5px solid saddlebrown;
-   width: 500px ;
-   height: 900px;
-   background-color: beige;
-   
-  
-   
+
+form {
+    margin-left: 100px;
+    border: 5px solid rgb(43, 41, 40);
+    background-color: #f5f5f5;
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
 }
+
 .rating {
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .rating label {
+}
+
+.rating label {
     cursor: pointer;
     font-size: 24px;
     color: #ccc;
-  }
-  
+}
+
 section label {
-	display: block;
-	font-weight: 700;
+    display: block;
+    font-weight: 700;
     font-size: 20px;
 }
-section select{
+
+section select {
     margin-top: 5px;
     font-size: 15px;
     margin-bottom: 5px;
-    width: 250px;
+    width: 100%; /* Adjust width to 100% for responsiveness */
     height: 40px;
     border-radius: 10px;
 }
-.san{
+
+.san {
     display: block;
-	font-weight: 700;
+    font-weight: 700;
     font-size: 20px;
 }
-.beta label{
+
+.beta label {
     margin-top: 15px;
-	font-weight: 700;
+    font-weight: 700;
     font-size: 20px;
 }
-.beta input[type="date"]{
-    width: 200px;
+
+.beta input[type="date"] {
+    width: 100%; /* Adjust width to 100% for responsiveness */
     height: 30px;
     border-radius: 10px;
 }
-div p{
+
+div p {
     margin-top: 15px;
-	font-weight: 700;
+    font-weight: 700;
     font-size: 20px;
 }
-.alpha input[type=checkbox]{
+
+.alpha input[type=checkbox] {
     height: 20px;
     width: 50px;
     margin-top: 20px;
 }
-span{
+
+span {
     color: blue;
     font-size: 13px;
 }
-section{
+
+section {
     margin: 25px;
 }
-div{
+
+div {
     margin: 25px;
 }
-.din label{
+
+.din label {
     margin-top: 15px;
-	font-weight: 700;
+    font-weight: 700;
     font-size: 20px;
 }
-.din textarea{
+
+.din textarea {
+    width: 100%; /* Adjust width to 100% for responsiveness */
     height: 100px;
-    width: 450px;
 }
-.last label{
+
+.last label {
     margin-top: 15px;
-    
-	font-weight: 700;
+    font-weight: 700;
     font-size: 20px;
 }
-.last input[type="text"]{
-    
+
+.last input[type="text"] {
     font-size: 15px;
     margin-bottom: 5px;
-    width: 450px;
+    width: 100%; 
     height: 40px;
     border-radius: 10px;
 }
+.fin{
+    font-size: 25px;
+    margin-bottom: 5px;
+    width: 100%; 
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(100, 117, 117);
+
+}
+
+
 footer {
-    background-color:aquamarine;
+    background-color: #4682B4;
     padding: 20px;
     text-align: center;
     font-size: larger;
     margin-top: 15px;
 }
-footer span{
+
+footer span {
     font-size: 20px;
 }
+
+/
