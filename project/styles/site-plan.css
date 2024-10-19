@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Young+Serif&display=swap');
+:root{
+    --primary-color:#313628;
+    --secondary-color: #595358;
+    --accent1-color:#CADF9E ;
+    --accent2-color:#857F74 ;
+    --heading-font: 'Young Serif', 'Arial';
+    --paragraph-font:'Roboto' 'sans serif' ;
+    --navigation-background-color:#2D4A73 ;
+    --navigation-link-color:#000000 ;
+    --navigation-hover-link-color:white ;
+    --navigation-hover-background-color:#2D4A73 ;
+
+}
+
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: beige;
+    
+}
+header{
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 1000;
+    font-size: 30px;
+    padding: 25px;
+    
+
+}
+header p{
+    font-weight:600 ;
+    font-size:20px ;
+}
+h1{
+   color: var(--primary-color);
+   padding: 2px;
+   border-bottom: 2px solid var(--accent1-color);
+   margin: 20px;
+}
+h3{
+    padding-top: 20px;
+    color: var(--secondary-color);
+    margin: 5px;
+}
+h4{
+    padding-top: 15px;
+    color: var(--secondary-color);
+    margin: 5px;
+}
+span{
+    color: blue;
+    font-weight: 400;
+}
+
+
+
+
+.content-table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+.content-table th,
+.content-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+
+}
+.content-table{
+    background-color: #b3b3b3;
+    color: #000;
+    height: 100px;
+}
+.primary-color {
+    background-color: #313628;
+}
+.secondary-color {
+    background-color: #595358;
+}
+.accent1-color {
+    background-color: #CADF9E ;
+}
+.accent2-color {
+    background-color:#857F74 ;
+}
+nav{
+    background-color: #857F74;
+    font-size: 1.2em;
+    display: flex;
+    
+}
+nav a {
+    display: block;
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+}
+nav a:link, nav a:visited{
+    color: var(--navigation-link-color);
+}
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer{
+    margin-top: 15px;
+    text-align: center;
+    padding: 30px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 25px;
+}
