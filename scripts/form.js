@@ -50,3 +50,18 @@ function populateProducts() {
 populateProducts();
 
 
+const tic = document.getElementById("submit");
+const visits = document.getElementById("count");
+
+let numVisits = Number(window.localStorage.getItem("visit-it")) || 0;
+
+visits.textContent = numVisits ? numVisits : "This is your first visit";
+
+localStorage.setItem("visit-it", ++numVisits);
+
+
+
+
+
+
+
