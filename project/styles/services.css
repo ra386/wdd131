@@ -87,7 +87,7 @@ header img{
 
 .container{
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-row-gap: 10px;
     text-align: center;
     margin-top: 20px;
@@ -102,7 +102,7 @@ header img{
 .hiro{
    background-image: url(service-hero.webp);
    /* background-attachment: fixed; */
-   background-position: top;
+   background-position: cover;
    background-repeat: no-repeat;
    background-size: cover;
    height: 700px;
@@ -133,6 +133,9 @@ header img{
     margin-left: 20px;
     margin-right: 20px;  
     
+}
+.two{
+    text-align: center;
 }
 /* .local{
     display: grid;
@@ -268,6 +271,25 @@ footer h2{
     .active::before { 
         content: "📍";  /* just a wayfinding symbol for the user */
     }
+    .wrapper{
+        display: block;
+    }
+    .local{
+        margin-top: 20px;
+    }
+    .pied{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 20px;
+        text-align: center;
+        grid-row: 20px;
+        grid-gap: 20px;
+    }
+    .der a{
+        margin-top: 10px;
+
+    }
+	
     
 	
 }

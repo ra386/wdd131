@@ -424,6 +424,12 @@ footer h2{
         grid-template-columns: 1fr 1fr;
         grid-column: 20px;
         text-align: center;
+        grid-row: 20px;
+        grid-gap: 20px;
+    }
+    .der a{
+        margin-top: 10px;
+
     }
 	
 }

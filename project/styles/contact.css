@@ -106,25 +106,30 @@ label{
     display: block;
     font-size: 15px;
 }
-
+.catch{
+    font-size: 22px;
+}
 
 form input{
     margin-top: 5px;
     height: 35px;
     width: 100%;
     border-radius: 5px;
+    border: 1.5px solid black;
 }
 form textarea{
     margin-top: 5px;
     height: 90px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 5px ;
+    border: 1.5px solid black;
 }
 form select{
     margin-top: 5px;
     height: 35px;
     width: 100%;
     border-radius: 5px;
+    border: 1.5px solid black;
 }
 .done{
     text-align: center;
@@ -311,6 +316,22 @@ footer h2{
     
     .active::before { 
         content: "📍";  /* just a wayfinding symbol for the user */
+    }
+    .map{
+        display: block;
+    }
+    .frame{width: auto;}
+    .pied{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 20px;
+        text-align: center;
+        grid-row: 20px;
+        grid-gap: 20px;
+    }
+    .der a{
+        margin-top: 10px;
+
     }
     
 	
