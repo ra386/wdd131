@@ -43,11 +43,11 @@ body {
   }
 header{
     /* position:fixed; */
-    top: 0;
-    left: 0;
+    
+    
     width: 100%;
     padding: 4rem 12% 4rem;
-    backdrop-filter: blur;
+    /* backdrop-filter: blur; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,7 +68,7 @@ header{
 
 .navbar a{
     font-size: 1.8rem;
-    color: black;
+    color:black;
     margin-left: 4rem;
     font-weight: 500;
     transition: 0.3s ease;
@@ -93,6 +93,7 @@ header{
     /* width: 100%;
     object-fit: cover; */
     text-align: center;
+   
 }
 
 .dos{
@@ -109,11 +110,14 @@ header{
 .primo h2{
     font-size: 45px;
     padding: 20px;
+    color: var(--secondary-color);
+
    
 }
 .primo p{
     font-size: 20px;
-    color: white;
+    color: black;
+    font-weight: 500;
 }
 .primo button{
     margin: 20px;
@@ -136,7 +140,7 @@ header{
 .disk h2{
     font-size: 30px;
     padding: 5px;
-    color: ;
+    /* color: ; */
 }
 .disk li{
     padding: 10px;
@@ -215,7 +219,7 @@ picture img{
 }
 .main-content .person{
     font-size: 1.6rem;
-    color: red;
+    color: var(--secondary-color);
     text-transform: uppercase;
     margin-top: 15px;
 
@@ -228,9 +232,9 @@ picture img{
     margin-top: 20px;
     border-radius: 5px;
 }
-.button-area button:active{
+/* .button-area button:active{
     background-color: lightblue ;
-}
+} */
 
 form{
     margin-left: 40px;
@@ -312,6 +316,7 @@ footer h2{
 .der{
     padding-top: 10px;
     padding-bottom: 10px;
+    color: black;
 }
 .der a:hover{
     color: var(--accent2-color);
@@ -388,7 +393,7 @@ footer h2{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
-        grid-row: 10px;
+        /* grid-row: 10px; */
         text-align: center;
         color: var(--primary-color);
     
@@ -422,9 +427,9 @@ footer h2{
     .pied{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column: 20px;
+        /* grid-column: 20px; */
         text-align: center;
-        grid-row: 20px;
+        /* grid-row: 20px; */
         grid-gap: 20px;
     }
     .der a{

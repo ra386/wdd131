@@ -45,7 +45,7 @@ header{
     left: 0;
     width: 100%;
     padding: 4rem 12% 4rem;
-    backdrop-filter: blur;
+    /* backdrop-filter: blur; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,7 +150,7 @@ form div{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
+    /* transform: translate(-50% -50%); */
     width: 200px;
     height: 100px;
     padding: 10px 20px;
@@ -324,9 +324,9 @@ footer h2{
     .pied{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column: 20px;
+        /* grid-column: 20px; */
         text-align: center;
-        grid-row: 20px;
+        /* grid-row: 20px; */
         grid-gap: 20px;
     }
     .der a{

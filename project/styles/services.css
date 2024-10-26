@@ -10,15 +10,19 @@
 }
 h1{
   font-size: 40px;
+  
 }
 h2{
     font-size: 25px;
+   
 }
 h3{
     font-size: 20px;
+    
 }
 h4{
     font-size: 15px;
+    
 }
 
 :root{
@@ -45,7 +49,7 @@ header{
     left: 0;
     width: 100%;
     padding: 4rem 12% 4rem;
-    backdrop-filter: blur;
+    /* backdrop-filter: blur; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,7 +106,7 @@ header img{
 .hiro{
    background-image: url(service-hero.webp);
    /* background-attachment: fixed; */
-   background-position: cover;
+   /* background-position: cover; */
    background-repeat: no-repeat;
    background-size: cover;
    height: 700px;
@@ -133,6 +137,12 @@ header img{
     margin-left: 20px;
     margin-right: 20px;  
     
+}
+.two section p{
+    font-size: 15px;
+}
+figure p{
+    font-size: 15px;
 }
 .two{
     text-align: center;
@@ -203,6 +213,9 @@ footer h2{
 .der{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.der a{
+    color: black;
 }
 .der a:hover{
     color: var(--accent2-color);
@@ -280,9 +293,9 @@ footer h2{
     .pied{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column: 20px;
+        /* grid-column: 20px; */
         text-align: center;
-        grid-row: 20px;
+        /* grid-row: 20px; */
         grid-gap: 20px;
     }
     .der a{
