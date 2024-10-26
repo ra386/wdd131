@@ -13,7 +13,7 @@ h1{
   }
   h2{
       font-size: 25px;
-      color: var(--secondary-color);
+      
   }
   h3{
       font-size: 20px;
@@ -84,10 +84,15 @@ header{
 }
 
 
- .hero img, source{
-    height:100%;
-    width: 100%;
-    object-fit: cover;
+ .hero {
+    background-image: url(hero-large.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+    /* width: 100%;
+    object-fit: cover; */
+    text-align: center;
 }
 
 .dos{
@@ -95,16 +100,16 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:30px ;
 }
-.primo{
+/* .primo{
     text-align: center;
     position: absolute;
     top: 30%;
     left: 5%;
-}
+} */
 .primo h2{
     font-size: 45px;
     padding: 20px;
-    margin-top: 10px;
+   
 }
 .primo p{
     font-size: 20px;
@@ -374,6 +379,45 @@ footer h2{
     
     .active::before { 
         content: "📍";  /* just a wayfinding symbol for the user */
+    }
+    .disk{
+        display: block;
+        text-align: center;
+    }
+    .plan{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        grid-row: 10px;
+        text-align: center;
+        color: var(--primary-color);
+    
+        
+    }
+    .plan h2{
+        color: black;
+    }
+    .dos{
+        display: block;
+        font-size: 15px;
+        
+    }
+    .dos span{
+        color: var(--primary-color);
+        font-size: 13px;
+    }
+    .cmdt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .main-content{
+        margin-bottom: 20px;
+
+        
+        
     }
     
 	
