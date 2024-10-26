@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 15px;
+}
+
+:root{
+    --primary-color:#0B899B ;
+    --secondary-color:#0396A6 ;
+    --accent1-color: #9CD3D8;
+    --accent2-color: #F2F2F2;
+}
+html{
+    font-size: 60%;
+    /* overflow-x: hidden; */
+}
+body {
+    background-color: var(--accent2-color);
+    /* background-image: url(hs.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+header{
+    /* position:fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 12% 4rem;
+    backdrop-filter: blur;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    background-color: var(--primary-color);
+}
+header img{
+    height: 55px;
+    width: 45px;
+}
+.logo{
+    font-size: 3rem;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.navbar a{
+    font-size: 1.8rem;
+    color: black;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar a:active{
+    color: var(--accent2-color);
+    text-decoration: underline 3px;
+    /* border-bottom: 3px solid var(); */
+    
+
+}
+
+/* #menu-icon{
+    font-size: 3.5rem;
+    display: none;
+
+} */
+
+footer{
+    padding-top: 20px;
+    
+}
+
+footer h2{
+    padding-bottom: 10px;
+}
+.pied{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    padding: 10px;
+    background-color: var(--accent1-color);
+    color: black;
+
+}
+.pied li{
+    list-style:none ;
+    font-size: 20px;
+    padding: 8px;
+    
+}
+.pied a{
+    color: black;
+}
+.pied a:hover{
+    color: var(--accent2-color);
+}
+.pied img{
+    height: 25px;
+    width: 30px;
+    padding-right: 5px;
+}
+.last{
+    text-align: center;
+    font-size: 20px;
+    padding: 90px;
+    background-color: var(--primary-color);
+   
+
+}
+.der{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.der a:hover{
+    color: var(--accent2-color);
+}
+
+@media (max-width: 780px) {
+    
+    .h1 {
+        text-align: left;
+        
+        margin-left: 1rem;
+    }
+    
+    
+    /* nav {
+        max-width: 700px;
+        margin: 1rem auto;
+    } */
+    
+    /* small view navigation */
+    #menu-icon {
+        font-size: 1.5rem;
+        border: 0;
+        background: none;
+        color: #000;
+        position: absolute;
+        top: 5rem;
+        right: 1rem;
+    }
+    
+    #menu-icon::before {
+        content: "☰";
+        font-size: 30px;
+    }
+    
+    #menu-icon.open::before {
+        content: "✖";
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        background-color: #333;
+        color: #fff;
+    }
+    
+    .navbar a {
+        display: none;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    .navbar a:hover {
+        background-color: #bbb;
+        color: #333;
+        font-weight: 700;
+    }
+    
+    /* when the button is clicked - the open class is toggled (added/removed) */
+    .open a {
+        display: block;
+    }
+    
+    .active::before { 
+        content: "📍";  /* just a wayfinding symbol for the user */
+    }
+    
+	
+}
+
+

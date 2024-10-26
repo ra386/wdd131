@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <script defer src="scripts/index.js"></script>
+    <script defer src="scripts/notification.js"></script>
+    <title>Linkify</title>
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo" > LINKIFY <img src="images/ok.png"> </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+    </header>
+    <main>
+        <div>
+            <picture class="hero">
+                <source srcset="images/hero-small.webp" media="( max-width: 750px)" loading="lazy">
+                <source srcset="images/hero-large.webp" media="(min-width: 1001px)" loading="lazy">
+                <img src="images/service-hero.webp" alt="people" loading="lazy">
+            </picture>      
+        </div>
+        <div >
+            <div class="primo">
+                <h2>Achieve your entrepreneurial goals!</h2>
+                <p>With us your entrepreneurial dreams are no longer thoughts with our expert team we got you covered. Jump in to the occasion of making even more profits for your business amd link up with the right people to take you to the next level.  </p>
+                <p>Our expert team handles already established businesses, growing businesses and entrepreneurs who plan on materialising the plans </p>
+                <button>Join-Us</button>
+            </div>
+        </div>
+        <div>
+            <div class="disk">
+                <section>
+                    <h2>Be The Difference</h2>
+                    <p>With our refined and optimized business expansion plans we got you covered, taking you through design, social media, development and implemetation stages for your business, so take a chance and letus be your difference.</p>
+                    <figure>
+                        <picture>
+                            <source srcset="images/statistic-small.webp" media="(max-width:750px)" loading="lazy">
+                            <source srcset="images/statistics.webp" media="(min-width:1001px)" loading="lazy">
+                            <img src="images/statistics.webp" alt="" loading="lazy">
+                        </picture>
+                        <figcaption>
+                            <p>Our staff running statistics and coming out with the best plan for you. So what you waiting for to join us</p>
+                        </figcaption>
+                    </figure>
+    
+                </section>
+                <div>
+                    <h2>Weekly Tips</h2>
+                    <ul>
+                        <li>Take a step and make a difference</li>
+                        <li>Time waits for no one</li>
+                        <li>Think it, Materialise it</li>
+                        <li>The victory lap is yours</li>
+                    </ul>
+                    <p class="peri">Join-Us now and recieve  <span>25%</span> off on any services purchased, do not miss out  <button>Benefit-now</button></p>
+                    
+                    <!-- <p class="peri"><span>Quote</span> by <span>Bla bla bla</span>: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis molestiae culpa aut?</p>
+     -->
+                </div>
+            </div>
+        </div>
+        <div class="plan1">
+            <h2>Progression Plan</h2>
+            <div class="plan">
+                <figure>
+                    <img src="images/idea.png" alt="">
+                    <figcaption>
+                        <h4>Idea</h4>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/plan.png" alt="">
+                    <figcaption>
+                        <h4>Plan</h4>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/implemetation.png" alt="">
+                    <figcaption>
+                        <h4>Implementation</h4>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/results.png" alt="">
+                    <figcaption>
+                        <h4>Results</h4>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div id="mt">
+            <section >
+                <h2>Meet Our Team</h2>
+                <p>Every employee witha unique set of skills and a different perspective to the business world this diversity keeps pushing us forward and makes us attain even higher heights. </p>
+            </section>
+            <div class="dos">
+                <figure>
+                    <picture>
+                        <source srcset="images/dream-small.webp" media="(max-width:750px)" loading="lazy">
+                        <source srcset="images/dream.webp" media="(min-width:1001px)" loading="lazy">
+                        <img src="images/dream.webp" alt="buildings" loading="lazy">
+                    </picture>
+                    <figcaption>Our Head Quaters (H.Q)</figcaption>
+                </figure>
+                <figure>
+                    <picture>
+                        <source srcset="images/meeting-small.webp" media="(max-width:750px)" loading="lazy">
+                        <source srcset="images/meeting.webp" media="(min-width:1001px)" loading="lazy">
+                        <img src="images/meeting.webp" alt="" loading="lazy">
+                    </picture>
+                    <figcaption>Our Staistic Team</figcaption>
+                </figure>
+                <figure>
+                    <picture>
+                        <source srcset="images/sm-small.webp" media="(max-width:750px)" loading="lazy">
+                        <source srcset="images/sm.webp" media="(min-width:1001px)" loading="lazy">
+                        <img src="images/sm.webp" alt="" loading="lazy">
+                    </picture>
+                    <figcaption>In full action</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="cmdt">
+            
+            <div class="main-content">
+                    <div class="text-area">
+                        <span class="quote" id="talk">
+                            "I do the very best I know how - the very best I can; and I mean to keep doing so until the end."
+                        </span>
+                        <div class="person" id="quel">
+                            Abraham Lincoln
+                        </div>
+                        <div class="button-area">
+                            <button id="new-quote">New Quote</button>
+                        </div>
+                    </div>
+            </div>
+            
+            <form>
+                <fieldset>
+                    <legend>News-Letter</legend>
+                    <div>
+                        <label for="username">User Name:</label>
+                        <input type="text" name="username" placeholder="Type your username">
+                    </div>
+                    <div>
+                        <label for="Useremail"> User Email:</label>
+                        <input type="text" id="Useremail" name="Useremail" placeholder="Type your Useremail">
+                    </div>
+                </fieldset>
+                
+                <figcaption>
+                    Subscribe to our News-Letter to get weekly or daily updates about our establishment, Don't hesitate sharing your concerns
+                </figcaption>
+                <input type="button" value="Subscribe" class="act">
+                </form>             
+        </div>
+    </main>
+    <footer>
+        <div class="pied">
+            <section>
+                <a href="#home" class="logo" > LINKIFY <img src="images/ok.png"> </a>
+            </section>
+            <section>
+                <h2>Contact</h2>
+                <ul>
+                    <li><a href="" target="_blank"><img src="images/location.png" alt="location"> 194-Old-Road <br>Bonaberi/Dla/Cmr</a></li>
+                    <li><a href="" target="_blank"> <img src="images/feedback.png" alt="chat">Feedback</a></li>
+                    <li><a href="" target="_blank"><img src="images/phone.png" alt="call"> +237 650-378-797</a></li>
+                    <li><a href="" target="_blank"> <img src="images/email.png" alt="email"> Linkify@gmail.com</a></li>
+                </ul>
+
+            </section>
+            <section>
+                <h2>Follow</h2>
+                <ul>
+                    <li><a href="" target="_blank"> <img src="images/facebook.png" alt="icon"> Facebook</a></li>
+                    <li><a href="" target="_blank"><img src="images/instagram.png" alt="icon">Instagram</a></li>
+                    <li><a href="" target="_blank"><img src="images/twitter.png" alt="icon">Twitter</a></li>
+                    <li><a href="" target="_blank"> <img src="images/whatsapp.png" alt="icon">Whatsapp</a></li>
+                    <li><a href="" target="_blank"> <img src="images/pintrest.png" alt="icon">Pintrest</a></li>
+                </ul>
+
+            </section>
+            <section>
+                <h2>Help</h2>
+                <ul>
+                    <li><a href="" target="_blank">Customer-Care</a></li>
+                    <li><a href="" target="_blank">Chat An Agent</a></li>
+                    <li><a href="" target="_blank">Technical Help Desk</a></li>
+                    <li><a href="" target="_blank">Business-Suit</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="last">
+            <p class="der">
+                <a href="" target="_blank">Linkify |</a>
+                <a href="" target="_blank">Linkedin |</a>
+                <a href="" target="_blank">Linkify-Newsroom |</a>
+                <a href="" target="_blank">Linkify-Atelier</a>
+            </p>
+            <p>
+                 Copyright ©2024 | Legal Notice
+            </p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+    
+    
