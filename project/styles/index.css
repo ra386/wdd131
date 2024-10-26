@@ -419,7 +419,12 @@ footer h2{
         
         
     }
-    
+    .pied{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 20px;
+        text-align: center;
+    }
 	
 }
 
